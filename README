@@ -1,0 +1,15 @@
+VGG11 has been implemented using keras for MNIST classification.
+Dataset - MNIST from keras
+
+The model performance is also checked by introducing regularisation and data augmentation.
+
+Using library pillow, images have been reshaped from 28*28 to 32*32.
+Images have been resized because there are 5 maxpool layers with pool size of (2,2). Using input image of 32*32 we will get image of 1*1 after application of max pool layers.
+If we would have used 28*28 image we would have got error.
+
+Test images are rotated from -45 degrees to 45 degrees and also gaussian blurred having radiuses 0 to 6.
+Model performance is checked in 3 scenarios( Neither regularisation nor data augmentation, Regularisation, Data Augmentation ).
+The performance is visualised using plots.
+
+Data Augmentaion has been implemented in vgg11_mnist_regularisation python notebook/file. 
+
