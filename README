@@ -1,5 +1,11 @@
-VGG11 has been implemented using keras for MNIST classification.
+VGG11 has been implemented using keras for Digit(0-9) classification.
+
 Dataset - MNIST from keras
+
+The model has ben implemented using the structure and parameters mentioned in the paper- 
+VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION( Published as a conference paper at ICLR 2015 )
+https://arxiv.org/pdf/1409.1556.pdf
+-Karen et. al.
 
 The model performance is also checked by introducing regularisation and data augmentation.
 
